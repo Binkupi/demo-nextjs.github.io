@@ -35,7 +35,7 @@ export default function Icon({
                 <Card.Body>
                     <Card.Title>
                         <div className="text-center">
-                        <span >Bin Kupi</span> 
+                        <span >Nhiiiiiiiiiii</span> 
                         </div> 
                     </Card.Title>
                     <div className="text-center">
@@ -43,9 +43,9 @@ export default function Icon({
                     </div>
                     
                     <p id='content' style={{fontFamily:"monospace",
-                                    fontSize:'1.2rem'}} className='text-center'>
+                                   }} className='text-center'>
                     </p>
-                    <p className='text-center' id='cmt' style={{display:'none'}}>Đẹp không =))Thu nhỏ để dễ nhìn hơn</p>
+                    <p className='text-center' id='cmt' style={{display:'none'}}>Đẹp không =))zoom nhỏ chrome để dễ nhìn hơn nè</p>
                 </Card.Body>
                 {/* <Link href={`/posts/${post.id}`} passHref><button className="btn btn-primary">See more</button></Link> */}
             </Card>
