@@ -67,7 +67,7 @@ import {getRandomJoke} from '../../lib/jokes'
 import Card from 'react-bootstrap/Card';
 import { useEffect } from 'react';
 import Link from 'next/link'
-export default function Jokes({ 
+export default function Joke({ 
     joke:joke
 }){
 
