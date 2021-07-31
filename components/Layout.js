@@ -22,7 +22,7 @@ const Layout=({children})=>(
                     <Link  href="/posts" passHref><a className="nav-link active" aria-current="page" >Post</a></Link>
                     </li>
                     <li className="nav-item">
-                    <Link  href="/jokes" passHref><a className="nav-link" aria-current="page" >Joke</a></Link>
+                    <Link  href="/jokes" passHref><a className="nav-link" aria-current="page" ><i class="fas fa-image    "></i></a></Link>
                     </li>
                     <li className="nav-item">
                         <Link  href="/about"><a className="nav-link">About</a></Link>
