@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Binkupi.github.io/demo-nextJS/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "next": "11.0.1",
+    "next-images": "^1.8.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "sass": "^1.36.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.15",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "typescript": "^4.3.5"
+  }
+}
