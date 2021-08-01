@@ -18,6 +18,7 @@ export default function Icon({
         setTimeout(function() {
           document.getElementById('content').innerHTML+=text;
           document.getElementById('content').innerHTML+='</br>';
+          console.log(text.length)
           var scrollingElement = (document.scrollingElement || document.body);
             scrollingElement.scrollTop = scrollingElement.scrollHeight;
         }, 100 * i);
@@ -43,7 +44,7 @@ export default function Icon({
                     </div>
                     
                     <p id='content' style={{fontFamily:"monospace",
-                                   }} className='text-center'>
+                                  fontSize:'4px',fontHeight:'4px' }} className='text-center'>
                     </p>
                     <p className='text-center' id='cmt' style={{display:'none'}}>Đẹp không =))zoom nhỏ chrome để dễ nhìn hơn nè</p>
                 </Card.Body>
