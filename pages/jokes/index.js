@@ -44,7 +44,7 @@ export default function Icon({
                     </div>
                     
                     <p id='content' style={{fontFamily:"monospace",
-                                  fontSize:'4px',fontHeight:'4px' }} className='text-center'>
+                                  fontSize:'1px',fontHeight:'1px' }} className='text-center'>
                     </p>
                     <p className='text-center' id='cmt' style={{display:'none'}}>Đẹp không =))zoom nhỏ chrome để dễ nhìn hơn nè</p>
                 </Card.Body>
